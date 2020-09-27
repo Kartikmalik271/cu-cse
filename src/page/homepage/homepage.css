@@ -1,0 +1,92 @@
+@media (max-width:775px){
+    .main-navbar .navbar-collapse{
+        background-color: whitesmoke;
+        border-radius: 20px;
+        
+
+    }
+}
+
+.homepage-main , .footer{
+    background-color:rgb(243, 243, 243);
+   
+    
+   
+}
+.modal-btn-half{
+    background-color: rgba(250, 164, 3, 0.925);
+    color: white;
+    font-weight: bolder;
+}
+.homepage-main-heading , .footer{
+   
+    font-family: cursive ;
+    
+}
+.homepage-main-heading h1{
+    animation: fadein 4s;
+}
+@keyframes fadein{
+
+    0%{
+    opacity: 0;
+    transform:translateX(-200px) ;
+    }
+    
+    100%{
+    opacity: 1;
+    }
+
+}
+.homepage-main-img{
+   animation: bounce 3s infinite;
+   z-index:1;
+    
+}
+@keyframes bounce{
+   
+    60%{
+        transform: translateY(20px);
+        z-index:1;
+    }
+}
+.teamsparticle{
+    position: absolute !important;
+}
+
+.homepage-main-cu-btn-half{
+    z-index:3;
+}
+.owl-carousel .owl-stage{
+    display:flex;
+}
+.item{
+    height: 100%;
+    padding: 20px;
+}
+
+.homepage-teamcard{
+ 
+    text-align: center;
+    height: 100%;
+     border:1px solid rgb(241, 241, 241);
+     border-radius: 20px;
+}
+.homepage-teamcard:hover{
+    box-shadow: 0px 0px 8px rgb(0, 255, 255);
+}
+
+.homepage-teamcard-image{
+    height: 150px;
+    width: 200px; 
+    border-radius: 15px;
+  
+}
+.homepage-teamcard-content{
+    height: 100%;
+}
+.joinclubs-btn-full{
+    bottom: ;
+}
+
+
